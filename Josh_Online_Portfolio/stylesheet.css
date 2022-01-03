@@ -333,4 +333,9 @@ img {
     p {
         font-size: 10px;
     }
+
+    .text_box {
+        width: 70%;
+        margin:30px;
+    }
   }
