@@ -338,4 +338,9 @@ img {
         width: 70%;
         margin:30px;
     }
+
+    .dimensions {
+        width: 90%;
+        height: 90%;
+      }
   }
