@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="stylesheet.css">
+      <title>Environment & Coding</title>
+      <link rel="shortcut icon" type="image/jpg" href="./images/favicon.png"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+      <nav>
+         <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Josh Green</a>
+               <a href="cv.html">CV</a>
+               <a href="about.html">About</a>
+               <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+      </nav>
+      <div class="individual_project_container">
+          <div class="projects"><img class="dimensions" src="assets/coding_image_one.png"></div>
+          <div class="project_text"><p class="text_box">Environmental Coding is a course I designed for Turinglab which teaches kids fundamental python programming concepts while also engaging them with environmental questions<br><br>I conducted the initial research for the project, designed different prototypes and developed the final product</p></div>
+          <div class="projects"><img class="dimensions" src="assets/coloured_assets.png"></div>
+          <div class="project_text"><p class="text_box">The project was in response to teachers asking for a course which could be taught in one or two lessons and introduced kids to coding.<br><br>The social focus of the course was in acknowledgement of the COP26 event in Glasgow and designed to show kids how the skills they learned could be used to positively tackle cliamte change.<br><br>I designed all the visual assets and functionaility for the course and built the necessary APIs so kids could easily get started with Python fundamentals.<br><br>Since publishing the Environment and Coding course on the Turinglab platform it has been used by multiple schools across the UK.</p></div>
+          <div class="projects"><img  class="dimensions" src="./assets/coding_video.gif"></div>
+          <div class="footer project_text"><p>Role : Research, Product Design, Development</p><p>Made with: Turinglab</p></div>
+      </div>
+      
+      <script>
+         function myFunction() {
+           var x = document.getElementById("myTopnav");
+           if (x.className === "topnav") {
+             x.className += " responsive";
+           } else {
+             x.className = "topnav";
+           }
+         }
+         </script>
+      </body>
+    </html>

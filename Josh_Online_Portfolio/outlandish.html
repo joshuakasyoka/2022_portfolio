@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="stylesheet.css">
+      <title>Outlandish</title>
+      <link rel="shortcut icon" type="image/jpg" href="./images/favicon.png"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+      <nav>
+         <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Josh Green</a>
+               <a href="cv.html">CV</a>
+               <a href="about.html">About</a>
+               <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+      </nav>
+      <div class="individual_project_container">
+        <div class="projects"><img class="dimensions" src="assets/outlandish_laptop.png"></div>
+        <div class="project_text"><p class="text_box">Outlandish needed to better catalogue their projects and direct their clients through their different services.<br><br>I researched user flows, organised projects and designed a prototype for their new website.</p></div>
+        <div class="projects"><img class="dimensions" src="assets/outlandish_final_mov 23.58.24.gif"></div>
+        <div class="project_text"><p class="text_box">A series of wireframes I created on Figma</p></div>
+        <div class="projects"><img class="dimensions" src="assets/outlandish_two.png"></div>
+        <div class="project_text"><p class="text_box">Cataloging different projects in a CSV</p></div>
+        <div class="projects"><img class="dimensions" src="assets/outlandish_research.png"></div>
+        <div class="footer project_text"><p>Role : UX / Product Design</p><p>Made with: Outlandish</p></div>
+        <script>
+         function myFunction() {
+           var x = document.getElementById("myTopnav");
+           if (x.className === "topnav") {
+             x.className += " responsive";
+           } else {
+             x.className = "topnav";
+           }
+         }
+         </script>
+      </body>
+      </html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="stylesheet.css">
+      <title>Learning Platform</title>
+      <link rel="shortcut icon" type="image/jpg" href="./images/favicon.png"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+      <nav>
+         <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Josh Green</a>
+               <a href="cv.html">CV</a>
+               <a href="about.html">About</a>
+               <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+      </nav>
+      <div class="individual_project_container">
+        <div class="projects"><img class="dimensions" src="assets/lp_one.png"></div>
+        <div class="project_text"><p class="text_box">Responding to user interviews I redesigned part of Turinglab's teaching platform so that teachers would be able to easily keep track of how their class was progressing through Turinglab content and identify where students were struggling.<br><br>I conducted the user research for the project and used Figma to come up with a series of prototypes - the new design for the platform was implemented by Turinglab's developers.</p></div>
+        <div class="projects"><img class="dimensions" src="assets/laptop-screen.gif"></div>
+        <div class="project_text"><p class="text_box">One of the new features was a progress chart, where teachers could clearly see the progress made by their entire class on a specific course.<br><br> If a student was stuck on the course the teacher would be able to look at the student's statistics and identify the specific slide causing difficulty by clicking through a drop-down menu.</p></div>
+        <div class="projects"><img class="dimensions" src="./assets/teaching_platform.png"></div>
+        <div class="project_text"><p class="text_box">Below is an example of the progress chart. The green circles show completion and the orange circles indicate help is needed.</p></div>
+        <div class="projects"><img class="dimensions" src="./assets/progress_bar.png"></div>
+        <div class="project_text"><p class="text_box">Teachers also suggested that their students were skipping through important slides which despite not having a task consolidated their knowledge.</p></div>
+        <div class="projects"><img class="dimensions" src="./assets/student_view.png"></div>
+        <div class="project_text"><p class="text_box">I repurposed some of Turinglab's old illustrations to make slides visually appealing and also designed a feature which required students to click on missing words to complete definitions and summaries </p></div>
+        <div class="projects"><img class="dimensions" src="./assets/quiz_one.gif"></div>
+        <div class="footer project_text"><p>Role : User Research, UX / Product Design</p><p>Made with: Turinglab</p></div>
+    </div>
+
+   <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+   </script>
+   
+      </body>
+      </html>

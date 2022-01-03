@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="stylesheet.css">
+      <title>LOBO</title>
+      <link rel="shortcut icon" type="image/jpg" href="./images/favicon.png"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+      <nav>
+         <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Josh Green</a>
+               <a href="cv.html">CV</a>
+               <a href="about.html">About</a>
+               <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+      </nav>
+      <div class="individual_project_container">
+        <div class="projects"><img class="dimensions" src="assets/lobo_loans.png"></div>
+        <div class="project_text"><p class="text_box">Many councils across the UK are in unecessary debt to banks because of (LOBO) Lender Option Borrower Option loans.<br><br>I helped design an application for people to find out if their council was in debt and what steps they could do about it</p></div>
+        <div class="projects"><img class="dimensions" src="assets/lobo.gif"></div>
+        <div class="project_text"><p class="text_box">I used Figma to design the site, and built a basic html prototype hosted on netlify</p></div>
+        <div class="projects"><img class="dimensions" src="./assets/lobo_two.gif"></div>
+        <div class="footer project_text"><p>Role : UX / Product Design</p><p>Made with: Outlandish</p></div>
+    </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+    </body>
+    </html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="stylesheet.css">
+      <title>Turinglab</title>
+      <link rel="shortcut icon" type="image/jpg" href="./images/favicon.png"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+      <nav>
+         <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Josh Green</a>
+               <a href="cv.html">CV</a>
+               <a href="about.html">About</a>
+               <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+      </nav>
+      <div class="individual_project_container">
+        <div class="projects"><img class="dimensions" src="assets/turing_lab_illustration_one.png"></div>
+        <div class="project_text"><p class="text_box">The Turinglab illustration redesign was about creating a set of illustration guidlines and visual components which could be used by the team to create assets for custom projects and courses</p></div>
+        <div class="projects"><img class="dimensions" src="assets/turinglab_illustration_two.png"></div>
+        <div class="project_text"><p class="text_box">The illustration style was based on simple geometric shapes which could be easily manipulated to create new characters and dynamic compositions. I created a series of template illustrations and instructions on how to construct new characters.</p></div>
+        <div class="projects"><img class="dimensions" src="./assets/illustration_two_one.png"></div>
+        <div class="project_text"><p class="text_box">An additional requirement for the illustration guidebook was that they should be easily animateable. I came up with a series of body templates which would allow members of the team to animate the characters on After Effects</p></div>
+        <div class="projects"><img class="dimensions" src="./assets/turinglab_illustration_four.png"></div>
+        <div class="project_text footer"><p>Role : Illustration, Research</p><p>Made with: Turinglab</p></div>
+    </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+
+
+      </body>
+      </html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="stylesheet.css">
+      <title>Read for Good</title>
+      <link rel="shortcut icon" type="image/jpg" href="./images/favicon.png"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+      <nav>
+         <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Josh Green</a>
+               <a href="cv.html">CV</a>
+               <a href="about.html">About</a>
+               <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+      </nav>
+      <div class="individual_project_container">
+        <div class="projects"><img class="dimensions" src="assets/phone_levels.png"></div>
+        <div class="project_text"><p class="text_box">I created a new rewards feature for an application made by Outlandish for the charity Read for Good. The purpose of the app was to encourage younger children to keep track of how much they were reading.</p></div>
+        <div class="projects"><img class="dimensions" src="assets/Frame-29.gif"></div>
+        <div class="project_text"><p class="text_box">Once kids had submitted the title of their book and how long they had speant reading it they would be directed to the rewards page.<br><br>This would calculate:<br><br> 1) A streak reward based on total consecutive days<br>2) A badge based on having met a new set of criteria<br>3) A level and corresponding motivational message<br><br> I designed this feature on Figma and developed it using the javascript library Vue.js</p></div>
+        <div class="projects"><img class="dimensions"src="assets/reward-box-1.gif"></div>
+        <div class="footer project_text"><p>Role : UX / Product Design, Development</p><p>Made with: Outlandish</p></div>
+    </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+      </body>
+      </html>
