@@ -253,6 +253,11 @@ img {
     width: 70%;
     height: 70%;
   }
+
+  .dimensions_2 {
+    width: 50%;
+    height: 50%;
+  }
   
   @media only screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
@@ -345,5 +350,10 @@ img {
     .dimensions {
         width: 90%;
         height: 90%;
+      }
+    
+      .dimensions_2 {
+        width: 80%;
+        height: 80%;
       }
   }
