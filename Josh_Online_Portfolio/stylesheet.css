@@ -191,6 +191,10 @@ a:hover {
     margin: 30px;
 }
 
+.next_button {
+    margin: 10px;
+}
+
 .text_box_two {
     width:600px;
     margin: 30px;
