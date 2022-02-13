@@ -311,6 +311,8 @@ img {
         flex-direction: column;
         gap: 30px;
         justify-content: center;
+        margin-right: 0px;
+        margin-left: 0px;
     }
 
     .left_image {
