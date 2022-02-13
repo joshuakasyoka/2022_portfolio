@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="stylesheet.css">
+      <title>Website Redesign</title>
+      <link rel="shortcut icon" type="image/jpg" href="./images/favicon.png"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+      <nav>
+         <div class="topnav" id="myTopnav">
+            <a href="index.html">Josh Green</a>
+               <a href="cv.html">CV</a>
+               <a href="about.html">About</a>
+               <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+      </nav>
+      <div class="individual_project_container">
+        <div class="projects"><img class="dimensions" src="assets/website_design_laptop.png"></div>
+        <div class="project_text"><p class="text_box">While working for Turinglab I got the chance to redesign their website. This is because the old website looked a bit old-school and needed some sprucing up.</p></div>
+        <div class="projects"><img class="dimensions" style="width: 25%" src="assets/Mobile-Phone-Prototype.gif"></div>
+        <div class="project_text"><p class="text_box">Using Mix Panel we realised a lot of Turinglab's customers accessed the platform on their mobile devices. This previously wasn't the case and the old website had bad mobile compatibility. <br><br> The redesign therefore had to be conscious of the different devices it was going to be viewed on.</p></div>
+        <div class="projects"><img class="dimensions" src="assets/website_design_project_cards.png"></div>
+        <div class="project_text"><p class="text_box">The new website was also going to function differently from the old one. It needed to give users quick access to Turinglab's courses, challenges and projects.<br><br> This would hopefully increase the sign up flow to Turinglab's platform.</p></div>
+        <div class="projects"><img class="dimensions" src="./assets/website_design_challenge_cards.png"></div>
+        <div class="project_text"><p class="text_box">Turinglab has many different clients. Schools, teachers, students, big organisations and non-profits. <br><br> We decided the website would have a 'light' and 'dark' mode. The light mode would appeal to younger users and the dark mode would be more suitable for older students and potential partners.</p></div>
+        <div class="projects"><img class="dimensions" src="./assets/website_design_colours.png"></div>
+        <div class="project_text"><p class="text_box">Before creating the UI for the new site we had to have a big think about how our new user flow was going to best fit together<br><br>This, of course, required a whole bunch of different wireframes for A-B testing.</p></div>
+        <div class="projects"><img class="dimensions" src="./assets/website_design_blueprint.png"></div>
+        <div class="project_text"><p class="text_box">A new site meant a new user flow. <br><br>Users would now land on the splash page and have quick access to Turinglab's learning materials. We had to think carefully about how all this was going to fit together.</p></div>
+        <div class="projects"><img class="dimensions" src="./assets/website_redesign_userflow.png"></div>
+        <div class="footer project_text"><p>Role : User Research, UX / Product Design</p><p>Made with: Turinglab</p></div>
+        <a href="./environmental_poster.html"><div class="project_text"><p>Next Project</p></div></a>
+    </div>
+
+   <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+   </script>
+   
+      </body>
+      </html>

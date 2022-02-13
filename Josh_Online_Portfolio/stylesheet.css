@@ -84,6 +84,8 @@ h4 {
     flex-direction: row;
     gap: 30px;
     justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .white_box {
