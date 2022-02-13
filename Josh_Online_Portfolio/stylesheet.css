@@ -1,3 +1,8 @@
+.video_dimensions {
+    width: 50%;
+    height: 50%;
+}
+
 nav {
     margin-left: 16px;
     margin-right: 16px;
