@@ -191,6 +191,11 @@ a:hover {
     margin:30px;
 }
 
+.marketing_text_box {
+    width: 70%;
+    margin:30px;
+}
+
 .footer {
     display: flex;
     flex-direction: row;
@@ -360,6 +365,11 @@ img {
     }
 
     .text_box {
+        width: 70%;
+        margin:30px;
+    }
+
+    .marketing_text_box {
         width: 70%;
         margin:30px;
     }
