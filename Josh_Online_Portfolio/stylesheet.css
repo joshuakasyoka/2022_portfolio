@@ -1,3 +1,8 @@
+.catalyst_resize {
+    width: 30%;
+    height: 30%;
+}
+
 .video_dimensions {
     width: 50%;
     height: 50%;
@@ -315,6 +320,14 @@ img {
   }
 
 @media only screen and (max-width: 600px) {
+
+
+    .catalyst_resize {
+        width:70%;
+        height: 70%;
+    }
+    
+
 
     .projects_row {
         display: flex;
